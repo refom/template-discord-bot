@@ -1,0 +1,11 @@
+{
+	"bot": {
+		"id": "",
+		"status": [
+			{ "type": "WATCHING", "activity": "My Master", "status": "dnd" },
+			{ "type": "PLAYING", "activity": "Games, ofc", "status": "dnd" }
+		],
+		"statusDelay": [ 2, 60, 1000 ]
+	},
+	"guilds": [ "" ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "templateBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "Reforms",
+  "license": "ISC",
+  "engines": {
+    "node": "16.14.x"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "@sapphire/time-utilities": "^1.7.4",
+    "colorette": "^2.0.16",
+    "discord-api-types": "^0.30.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.11.0"
+  }
+}
