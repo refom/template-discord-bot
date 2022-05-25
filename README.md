@@ -1,34 +1,22 @@
+<div id="top"></div>
 
 <h1 align="center">Template Discord Bot</h3>
-<p align="center">
+<h3 align="center">
     Starter file for making Discord bot using discord.js
+</h3>
+
+<p align="center">
+  <a href="#about-the-project">About The Project</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#usage">Usage</a>
 </p>
 
-
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-  </ol>
-</details>
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-I made this template because I was lazy to edit an existing project file, so I created an starter file that can be used directly to create a discord bot!
+I made this template because I was lazy to edit an existing project file to make a new one, so I created an starter file that can be used directly to create a discord bot!
 
 
 ### Built With
@@ -36,10 +24,23 @@ I made this template because I was lazy to edit an existing project file, so I c
 * [Discord.js](https://discord.js.org/)
 * [Node.js](https://nodejs.org/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+### Features
+
+- Commands Handler
+- Events Handler
+- Features Handler
+- Permission Handler
+- Reactions Handler
+- Human-readable format
+- Organized Folders and Files
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
+
+### Config
 
 Make sure you have node.js and npm installed. First you need to create an `.env` file and fill it according to the one in `.env.example`
 * .env
@@ -75,18 +76,22 @@ If you want to add your friend as admin or tester bot, then open the handler fol
   ```
 
 
-### Prerequisites
+### Installation
 
-Install the required libraries using npm
+Install the required package using npm
 * npm
   ```sh
   npm install
   ```
 
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
 Run the bot for the first time, then open a second command prompt to run the `deploy-guild.js` file
 * Run the bot
   ```sh
-  npm run start
+  npm start
   ```
   or
   ```sh
@@ -99,11 +104,7 @@ Run the bot for the first time, then open a second command prompt to run the `de
 
 After `deploy-guild.js` is complete, now you can deploy new commands via the command on your server that you enter the id into `config.json`
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
 To make commands, I have prepared a template for creating commands which is in the commands [folder](commands).
 
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>

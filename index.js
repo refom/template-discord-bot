@@ -20,7 +20,7 @@ const client = new Client({
 	partials: ['MESSAGE', 'REACTION'],
 });
 
-// Put config to client
+// Put config to client container
 client.container = {
 	"config" : config
 };

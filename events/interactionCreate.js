@@ -8,7 +8,7 @@ const obj = {
 		// Check if it's command
 		if (!interaction.isCommand()) return;
 
-		// Get the name and not undefined
+		// Get the name and check undefined
 		const { commands } = interaction.client.container;
 		const command = commands.get(interaction.commandName);
 		if (!command) return;

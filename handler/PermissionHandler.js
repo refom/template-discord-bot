@@ -16,12 +16,12 @@ const handler = {
 		if (perm == "user") return true;
 		
 		if (perm == "owner") {
-			logger.warn(`Owner Permission Dipakai oleh ${user.id}`);
+			logger.warn(`Owner Permission is used by ${user.id}`);
 			return (process.env.OWNER == user.id);
 		}
 		
 		if (permConfig[perm]) {
-			logger.warn(`${perm} Permission Dipakai oleh ${user.id}`);
+			logger.warn(`${perm} Permission is used by ${user.id}`);
 			return permConfig[perm].includes(user.id);
 		}
 
