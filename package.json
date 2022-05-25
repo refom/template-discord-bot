@@ -1,5 +1,5 @@
 {
-  "name": "templateBot",
+  "name": "templatebot",
   "version": "1.0.0",
   "description": "Starter file for discord js bot",
   "main": "index.js",

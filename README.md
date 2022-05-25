@@ -2,7 +2,7 @@
 
 <h1 align="center">Template Discord Bot</h3>
 <h3 align="center">
-    Starter file for making Discord bot using discord.js
+    Starter file for creating Discord bot using discord.js
 </h3>
 
 <p align="center">
