@@ -9,7 +9,7 @@ const handler = (client) => {
 	const path = require('path').resolve(__dirname, '../commands');
 	const commandFiles = utils.getAllFiles(path);
 
-	client.container.commands = new Collection();
+	// client.container.commands = new Collection();
 
 	for (const file of commandFiles) {
 		const command = require(file);

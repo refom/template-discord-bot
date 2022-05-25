@@ -10,7 +10,7 @@ const handler = (client) => {
 	const dirPath = path.resolve(__dirname, '../reactions');
 	const reactionFiles = utils.getAllFiles(dirPath);
 
-	client.container.reactions = new Collection();
+	// client.container.reactions = new Collection();
 	
 	for (const file of reactionFiles) {
 		const reaction = require(file);

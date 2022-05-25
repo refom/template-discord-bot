@@ -1,7 +1,7 @@
 'use strict';
 
 // ===== Importing
-const { Client, Intents } = require('discord.js');
+const { Client, Intents, Collection } = require('discord.js');
 const config = require('./config.json');
 const CommandsHandler = require('./handler/CommandsHandler');
 const EventsHandler = require('./handler/EventsHandler');
@@ -22,7 +22,9 @@ const client = new Client({
 
 // Put config to client container
 client.container = {
-	"config" : config
+	"config" : config,
+	"commands": new Collection(),
+	"reactions": new Collection(),
 };
 
 CommandsHandler(client);
